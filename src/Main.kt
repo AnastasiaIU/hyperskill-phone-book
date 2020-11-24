@@ -12,8 +12,8 @@ fun main() {
 }
 
 object Data {
-    val phoneNumbers = File("C:\\Documents\\directory.txt").readLines()
-    val toFind = File("C:\\Documents\\find.txt").readLines()
+    val phoneNumbers = File("files\\directory.txt").readLines()
+    val toFind = File("files\\find.txt").readLines()
     var stopped = ""
     var startBbS = 0L // BbS - Bubble Sort
     var timeLS = 0L // LS - Linear Search
